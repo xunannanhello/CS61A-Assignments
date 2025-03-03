@@ -8,8 +8,8 @@ def digit(n, k):
     >>> digit(3579, 10)
     0
     """
-    return ____
-
+    return str(n)[::-1][k] if k < len(n) else 0
+    
 
 def middle(a, b, c):
     """Return the number among a, b, and c that is not the smallest or largest.
@@ -26,7 +26,7 @@ def middle(a, b, c):
     >>> middle(30, 5, 40)
     30
     """
-    return ____
+    return 
 
 
 def falling(n, k):
